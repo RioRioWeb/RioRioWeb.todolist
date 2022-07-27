@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TodoList</title>
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+  <div class="todo_list">
+    <div class="container">
+      <div class="date">
+        6/28(金)
+      </div>
+      <form>
+        <div class="content">
+          <label for="todo">todo</label>
+          <input type="text" id="todo">
+        </div>
+        <div class="time">
+          <label for="time">時間帯</label>
+          <input type="text" maxlength="2" id="time">
+          <section>：</section>
+          <input type="text" maxlength="2" id="time2">
+          <section>〜</section>
+          <input type="text" maxlength="2" id="time3">
+          <section>：</section>
+          <input type="text" maxlength="2" id="time4">
+        </div>
+      </form>
+      <button type="button" class="add">追加</button>
+    </div>
+
+    <ul class="table">
+      <ul class="check">
+        <li>
+          <input type="checkbox">
+        </li>
+      </ul>
+
+      <ul class="content">
+        <li>
+          <section>英語の勉強</section>
+        </li>
+      </ul>
+
+      <ul class="time">
+        <li>
+          <section>12:00~20:00</section>
+        </li>
+      </ul>
+
+      <ul class="del">
+        <li>
+          <button type="button">削除</button>
+        </li>
+      </ul>
+
+
+    </ul>
+  </div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
